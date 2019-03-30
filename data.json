@@ -1,0 +1,81 @@
+{
+  "intro": {
+    "quote": "成功没有偶然，即便有些胜利者谦虚地说，自己的成功是偶然的缘故。",
+    "introList": [
+      "我是李瑞锋",
+      "一名前端工程师",
+      "lrf20180312@163.com"
+    ]
+  },
+  "info": {
+    "title": "关于我",
+    "infoList": [
+      {
+        "key": "年龄",
+        "value": "24岁"
+      },
+      {
+        "key": "学历",
+        "value": "本科"
+      },
+      {
+        "key": "城市",
+        "value": "杭州"
+      },
+      {
+        "key": "状态",
+        "value": "离职"
+      }
+    ],
+    "desList": [
+      "2017年6月本科毕业于湖南农业大学",
+      "2018年9月开始web前端生涯",
+      "对前端技术有极高的热情",
+      "对待Coding严谨，拒绝“脏”、“乱”、“差”"
+    ]
+  },
+  "skill": {
+    "title": "技术栈",
+    "sList": [
+      "html5",
+      "css3",
+      "es6",
+      "vue",
+      "webpack",
+      "stylus"
+    ],
+    "desList": [
+      ""
+    ]
+  },
+  "experience": {
+    "title": "经历",
+    "expList": [
+      {
+        "title": "杭州会友科技有限公司",
+        "time": "2018年9月~2019年2月",
+        "post": "web前端工程师",
+        "desList": [
+          ""
+        ]
+      },
+      {}
+    ]
+  },
+  "works": {
+    "title": "作品",
+    "worksList": [
+      {
+        "title": "李瑞锋的个人简历",
+        "url": ""
+      },
+      {
+        "title": "github",
+        "url": ""
+      }
+    ]
+  },
+  "contact": {
+
+  }
+}
