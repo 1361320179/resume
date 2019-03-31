@@ -1,9 +1,23 @@
 <template>
-  <div>I am contact</div>
+  <div>{{contactData.contact}}</div>
 </template>
 
 <script type="text/ecmascript-6">
-export default{};
+  export default {
+    methods: {
+      getContact() {
+        this.$store.dispatch('saveContact');
+      }
+    },
+    computed: {
+      contactData() {
+        return this.$store.state.contact;
+      }
+    },
+    created() {
+      this.getContact();
+    }
+  };
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
