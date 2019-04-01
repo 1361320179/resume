@@ -16,7 +16,7 @@ const actions = {
     })
       .then(function (res) {
         if (res.data.errno === 0) {
-          context.commit('updateContact', res.data);
+          context.commit('updateContact', res.data.data);
         }
       })
       .catch(function (err) {

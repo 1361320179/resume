@@ -35,7 +35,7 @@
     ]
   },
   "skill": {
-    "title": "技术栈",
+    "title": "技能",
     "sList": [
       "html5",
       "css3",
@@ -45,7 +45,9 @@
       "stylus"
     ],
     "desList": [
-      ""
+      "具备书写原生JS代码的能力",
+      "具有前端工程化与模块化思想",
+      "熟练使用vue技术，了解vue相关生态"
     ]
   },
   "experience": {

@@ -16,7 +16,7 @@ const actions = {
     })
       .then(function (res) {
         if (res.data.errno === 0) {
-          context.commit('updateSkill', res.data);
+          context.commit('updateSkill', res.data.data);
         }
       })
       .catch(function (err) {

@@ -39,7 +39,9 @@
       </li>
     </ul>
     <keep-alive>
-      <router-view class="show"></router-view>
+      <transition name="slip">
+        <router-view class="show"></router-view>
+      </transition>
     </keep-alive>
   </div>
 </template>
@@ -56,11 +58,13 @@
     .tab-list
       padding: 6px
       .tab-item
-        margin-top: 20px
+        margin-top: 25px
         text-align: right
+        &:first-child
+          margin: 0
         .title
           opacity: 0
-          font-size: 12px
+          font-size: 10px
           font-weight: bold
           transition: all .5s
         .icon
@@ -68,7 +72,7 @@
           padding: 3px
           border-radius: 50%
           vertical-align: middle
-          font-size: 22px
+          font-size: 14px
           background: rgba(66, 66, 66, 0)
           transition: all .5s
         a.active .title
@@ -81,4 +85,13 @@
       right: 40px
       bottom: 40px
       left: 0
+      &.slip-enter-active, &.slip-leave-active
+        transform: translate3d(0, 0, 0)
+        transition: all .5s
+      &.slip-enter
+        transform: translate3d(100%, 0, 0)
+        opacity: 0
+      &.slip-leave-to
+        transform: translate3d(-100%, 0, 0)
+        opacity: 0
 </style>
