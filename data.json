@@ -37,12 +37,11 @@
   "skill": {
     "title": "技能",
     "sList": [
-      "html5",
+      "h5",
       "css3",
       "es6",
       "vue",
-      "webpack",
-      "stylus"
+      "php"
     ],
     "desList": [
       "具备书写原生JS代码的能力",
