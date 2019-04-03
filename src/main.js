@@ -14,7 +14,16 @@ import store from './store/index';
 
 import './common/stylus/index.styl';
 
+import { Carousel, CarouselItem, Timeline, TimelineItem, Card } from 'element-ui';
+
 Vue.use(VueRouter);
+
+Vue.prototype.$ELEMENT = {size: 'small'};
+Vue.use(Carousel);
+Vue.use(CarouselItem);
+Vue.use(Timeline);
+Vue.use(TimelineItem);
+Vue.use(Card);
 
 Vue.config.productionTip = false;
 

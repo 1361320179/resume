@@ -1,9 +1,11 @@
 <template>
-  <!--<div>{{skillData.skill}}</div>-->
   <div class="skill_wrapper">
     <div class="skill_content">
       <h3 v-text="skillData.skill.title" class="skill_title"></h3>
       <v-sketch :sList="skillData.skill.sList"></v-sketch>
+      <ul class="des_list">
+        <li v-for="(item, index) in skillData.skill.desList" v-text="item" :key="index" class="des_item"></li>
+      </ul>
     </div>
   </div>
 </template>
@@ -45,6 +47,17 @@
       .skill_title
         line-height: 28px
         font-size: 14px
+        text-align: center
+        color: #fff
+      .des_list
+        position: absolute
+        left: 50%
+        top: 70%
+        width: 250px
+        transform: translate(-50%, 0)
+      .des_item
+        line-height: 24px
+        font-size: 12px
         text-align: center
         color: #fff
 </style>
