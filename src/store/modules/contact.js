@@ -5,7 +5,7 @@ const state = {
 };
 const mutations = {
   updateContact(state, data) {
-    state.info = data;
+    state.contact = data;
   }
 };
 const actions = {

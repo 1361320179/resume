@@ -109,6 +109,16 @@
     ]
   },
   "contact": {
-
+    "title": "联系我",
+    "messageList": [
+      "因为兴趣，所以选择",
+      "因为专注，所以坚持",
+      "因为梦想，所以启航",
+      "相信自己，勇敢前行"
+    ],
+    "github": "https://github.com/1361320179",
+    "blog": "https://blog.csdn.net/weixin_44382043",
+    "weibo": "http://weibo.cn/lrf20180312",
+    "zhihu": "https://www.zhihu.com/people/li-rui-feng-37/activities"
   }
 }
