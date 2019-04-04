@@ -3,9 +3,7 @@
     <polyline points="100,20 180,100 100,180 20,100 100,20" stroke="#ddd" stroke-width="2" fill-opacity="0"></polyline>
     <circle v-for="(item, index) in sList" :key="'c'+index" r="10" :cx="cList[index][0]" :cy="cList[index][1]"
             :fill="colorList[index]" fill-opacity="0.4"></circle>
-    <text v-for="(item, index) in sList" :key="'t'+index" :x="cList[index][0]-7" :y="cList[index][1]+2" font-size="8px" fill="#fff">
-      {{item}}
-    </text>
+    <text v-for="(item, index) in sList" :key="'t'+index" :x="cList[index][0]-7" :y="cList[index][1]+2" font-size="8px" fill="#fff" v-text="item"></text>
   </svg>
   <!--[[66, 66], [99, 66], [132, 66], [132, 99], [132, 132], [99, 132], [66, 132], [66, 99]]-->
 </template>

@@ -85,11 +85,26 @@
     "worksList": [
       {
         "title": "李瑞锋的个人简历",
-        "url": ""
+        "detailList": [
+          "技术栈：vue、vuex、vue-router、axios、element-ui、svg、webpack、stylus；",
+          "使用vue.js框架，采用vue-router搭建SPA；",
+          "使用axios请求数据，并用vuex进行状态管理；",
+          "使用h5的svg绘图技术，结合vue数据绑定,实现动画效果；",
+          "局部引入element-ui的Carousel走马灯、Timeline时间线组件。"
+        ]
       },
       {
-        "title": "github",
-        "url": ""
+        "title": "2048小游戏、俄罗斯方块小游戏",
+        "detailList": [
+          "技术栈：原生js；",
+          "采用面向对象方式编写。"
+        ]
+      },
+      {
+        "title": "更多项目",
+        "detailList": [
+          "请持续关注github"
+        ]
       }
     ]
   },

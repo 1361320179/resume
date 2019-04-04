@@ -22,6 +22,6 @@ export default {
     bottom: 0
     left: 0
     width: 100%
-    background: #99ccee
+    background: #6a6da9
 
 </style>
