@@ -7,6 +7,7 @@ import skill from './modules/skill';
 import exp from './modules/experience';
 import works from './modules/works';
 import contact from './modules/contact';
+import footer from './modules/footer';
 
 Vue.use(Vuex);
 
@@ -18,7 +19,8 @@ export default new Vuex.Store({
     skill,
     exp,
     works,
-    contact
+    contact,
+    footer
   },
   strict: debug
 });

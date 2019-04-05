@@ -19,6 +19,7 @@ const skill = appData.skill
 const experience = appData.experience
 const works = appData.works
 const contact = appData.contact
+const footer = appData.footer
 const apiRoutes = express.Router()
 app.use('/api', apiRoutes)
 
@@ -90,6 +91,12 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         res.json({
           errno: 0,
           data: contact
+        })
+      }),
+      app.get('/api', (req, res) => {
+        res.json({
+          errno: 0,
+          data: footer
         })
       })
     }

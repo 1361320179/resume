@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <v-tab></v-tab>
+    <v-footer></v-footer>
   </div>
 </template>
 
 <script>
 import tab from './components/tab/tab';
+import footer from './components/footer/footer';
 
 export default {
   components: {
-    'v-tab': tab
+    'v-tab': tab,
+    'v-footer': footer
   }
 };
 </script>

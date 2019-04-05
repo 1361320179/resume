@@ -1,4 +1,6 @@
 {
+  "header": {
+  },
   "intro": {
     "quote": "成功没有偶然，即便有些胜利者谦虚地说，自己的成功是偶然的缘故。",
     "introList": [
@@ -120,5 +122,8 @@
     "blog": "https://blog.csdn.net/weixin_44382043",
     "weibo": "http://weibo.cn/lrf20180312",
     "zhihu": "https://www.zhihu.com/people/li-rui-feng-37/activities"
+  },
+  "footer": {
+    "copyright": "Copyright © 2019 All Rights Reserved."
   }
 }
