@@ -28,6 +28,7 @@ Vue.use(Card);
 Vue.config.productionTip = false;
 
 const routes = [
+  {path: '/', redirect: '/intro'},
   {path: '/intro', component: intro},
   {path: '/info', component: info},
   {path: '/skill', component: skill},
