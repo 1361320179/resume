@@ -1,21 +1,34 @@
 # resume of liruifeng
 
-> A Vue.js project
+> 项目技术栈：vue+vue-router+vuex+axios+element-ui
+构建工具：vue-cli+webpack
 
-## Build Setup
+## 准备
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+# 安装 node.js 和 node package modules
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 开发环境
+
+``` bash
+# 安装依赖
+npm install
+
+# 开启服务器
+npm run dev
+项目访问地址：localhost:8080
+```
+
+## 生产环境
+
+``` bash
+# 构建上线代码
+npm run build
+
+# 开启服务器
+node prod.server.js
+
+项目访问地址：localhost:9090
+```
+
