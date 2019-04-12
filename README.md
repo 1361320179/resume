@@ -5,7 +5,7 @@
 
 ## 项目截图
 
-![image](https://github.com/1361320179/resume/tree/master/screenshots/1.png)
+![image](https://github.com/1361320179/resume/blob/master/screenshots/1.png)
 ![image](https://github.com/1361320179/screenshots/2.png)
 ![image](https://github.com/1361320179/screenshots/3.png)
 ![image](https://github.com/1361320179/screenshots/4.png)
