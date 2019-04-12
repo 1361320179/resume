@@ -6,11 +6,11 @@
 ## 项目截图
 
 ![image](https://github.com/1361320179/resume/blob/master/screenshots/1.png)
-![image](https://github.com/1361320179/screenshots/2.png)
-![image](https://github.com/1361320179/screenshots/3.png)
-![image](https://github.com/1361320179/screenshots/4.png)
-![image](https://github.com/1361320179/screenshots/5.png)
-![image](https://github.com/1361320179/screenshots/6.png)
+![image](https://github.com/1361320179/resume/blob/master/screenshots/2.png)
+![image](https://github.com/1361320179/resume/blob/master/screenshots/3.png)
+![image](https://github.com/1361320179/resume/blob/master/screenshots/4.png)
+![image](https://github.com/1361320179/resume/blob/master/screenshots/5.png)
+![image](https://github.com/1361320179/resume/blob/master/screenshots/6.png)
 
 ## 准备
 
