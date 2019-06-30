@@ -1,6 +1,6 @@
 # resume of liruifeng
 
-> 项目技术栈：vue+vue-router+vuex+axios+element-ui
+> 项目技术栈：vue+vue-router+vuex+axios+element-ui+svg+stylus
 构建工具：vue-cli+webpack
 
 
